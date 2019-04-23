@@ -25,8 +25,7 @@ export interface User {
 export class AuthenticationService {
      pusher: any;
      channel: any;
-     api_url='https://jsonplaceholder.typicode.com/todos/1/';
-     //http://localhost:4100/api/
+     api_url='http://ec2-18-191-122-177.us-east-2.compute.amazonaws.com:4100/';
      private token: string;
      constructor(private http: HttpClient, private router: Router) {
           Pusher.logToConsole = true;
