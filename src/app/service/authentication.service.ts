@@ -25,7 +25,7 @@ export interface User {
 export class AuthenticationService {
      pusher: any;
      channel: any;
-     api_url='http://0.0.0.0/api';
+     api_url='http://0.0.0.0/api/';
      //http://localhost:4100/api/
      private token: string;
      constructor(private http: HttpClient, private router: Router) {
