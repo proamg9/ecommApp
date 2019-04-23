@@ -1,0 +1,44 @@
+
+.login-box {
+    max-width: 380px;
+    width: 100%;
+    margin: 5px auto;
+}
+
+.category-list .list-group-item{
+    border: none;
+}
+.category-div {
+    border-right: 1px solid #ddd;
+}
+a:hover {
+    color: #fff;
+}
+.add-subCategories {
+    background: #0095ff;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 19px;
+    border-radius: 50px;
+    margin-top: 4px;
+}
+.del-subCategories {
+    background: #27292b;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 19px;
+    border-radius: 50px;
+    margin-top: 4px;
+}
+.keywords{
+    color: darkgray;
+    text-align: right;
+    float: right;
+    font-size: 14px;
+}
