@@ -25,7 +25,7 @@ export interface User {
 export class AuthenticationService {
      pusher: any;
      channel: any;
-     api_url='http://ec2-18-191-122-177.us-east-2.compute.amazonaws.com:4100/';
+     api_url='http://ec2-18-191-122-177.us-east-2.compute.amazonaws.com:4100/api/';
      private token: string;
      constructor(private http: HttpClient, private router: Router) {
           Pusher.logToConsole = true;
